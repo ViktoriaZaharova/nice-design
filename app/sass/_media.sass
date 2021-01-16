@@ -4,28 +4,316 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
-	/**/
+  .main-img__it
+    min-width: auto
+    max-width: 500px
+    margin: 0 auto
+    width: 100%
 
+  .for-whom .box-text
+    font-size: 20px
+
+  .text-overlay
+    font-size: 260px
+    line-height: 1
+
+  .format-date
+    padding: 0
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
+  h1
+    margin: 0
+    font-size: 50px
+    line-height: normal
+    text-align: center
+    br
+      display: none
 
+  main
+    .date
+      font-size: 30px
+      margin: 30px 0
+      text-align: center
+
+  .img-figure
+    display: none
+
+  .main-img:before
+    width: 100%
+    right: auto
+    left: 50%
+    top: 40%
+    height: 200px
+    transform: translate(-50%,0)
+
+  .decor-main-img
+    right: 20%
+
+  .decor-main-img2
+    max-width: 200px
+
+  .case
+    margin: 20px 0 0
+
+  .for-whom
+    margin: 0 0 80px
+
+  .program
+    h2
+      transform: none
+      margin: 0 auto 30px
+      text-align: center
+      font-size: 70px
+      letter-spacing: 2px
+      line-height: 1
+      justify-content: center
+    h3
+      font-size: 40px
+      line-height: 1
+    h4
+      font-size: 20px
+
+
+  .decor-program-img2
+    max-width: 400px
+
+  .program-item
+    margin: 0 0 20px
+    padding: 0 0 15px
+    &:before
+      width: 100%
+      height: 1px
+      left: 50%
+      transform: translate(-50%,0)
+      bottom: 0
+      top: auto
+
+  .program-item__description
+    max-width: none
+    margin: 0 0 40px
+
+  .registration h2
+    font-size: 70px
+    line-height: 1
+
+  .author-text
+    margin: 30px 0 0
+
+  .format
+    margin: 150px 0 0
+
+  .format-box
+    margin: 0 0 30px
+    &:before
+      width: 200px
+      height: 200px
+      top: 0
+
+  .date-item__body
+    margin: 0 100px 0 0
+    width: fit-content
+
+  .date-item
+    display: flex
+    align-items: center
+    justify-content: center
+
+  .img-date
+    left: calc(50% + 45px)
+    transform: translate(-50%,0)
+
+  .format-date
+    h3
+      text-align: center
+
+  .date-item__month, .date-item__year
+    text-align: center
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	/**/
+  .line-figure
+    width: 100px
+    height: 15px
 
+  .decor-main-img2
+    max-width: 100px
+
+  h1, h2, h3
+    font-size: 50px
+    line-height: normal
+
+  .for-whom .box-text
+    font-size: 18px
+
+  .decor-program-img2
+    max-width: 300px
+
+  .decor-program-img1
+    margin: 0
+    max-width: 70px
+
+  .total
+    h2
+      margin: 0 0 20px
+      br
+        display: none
+
+  .box-text
+    font-size: 20px
+
+  footer
+    padding: 70px 0
+
+  .form
+    padding: 20px
+    max-width: 300px
+    margin: 0 auto
+
+  .registration-box
+    margin: 0 0 30px
+    h3
+      margin: 0 auto 20px
+
+  .registration
+    h2
+      font-size: 60px
+      margin: 0 auto 30px
+
+  .author
+    padding: 50px 0
+
+  .format
+    margin: 100px 0 0
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px)
-	/**/
+@media only screen and (max-width : 575px)
+  main
+    padding: 140px 0 38px
 
+  h1, h2, h3
+    font-size: 40px
+
+  .line-figure
+    height: 10px
+    width: 80px
+    margin: 0 5px
+
+  .decor-program-img1
+    margin: 0 10px
+
+  .decor-program-img2
+    max-width: 180px
+
+  .program h2, .registration h2
+    font-size: 50px
+
+  .program h3
+    font-size: 30px
+
+  .box-text
+    font-size: 18px
+    font-weight: 500
+
+  footer
+    padding: 40px 0
+
+  .author-photo
+    width: 150px
+    height: 150px
+
+  .date-item
+    font-size: 120px
+    line-height: 1
+
+  .img-date
+    top: 26px
+    left: calc(50% + 10px)
+    max-width: 260px
+
+  .date-item__month
+    font-size: 50px
+    line-height: 1
+    margin: 5px 0
+
+  .date-item__year
+    font-size: 24px
+    line-height: 1
+
+  .format-box:before
+    width: 150px
+    height: 150px
+
+  .format h3
+    margin: 0 0 20px
+
+  .format-box
+    padding: 0
+
+  .format-box__text
+    margin: 20px 0 0
+
+  .format
+    margin: 50px 0 0
+
+@media only screen and (max-width : 480px)
+  h1, h2, h3
+    font-size: 30px
+
+  main .date
+    font-size: 24px
+
+  .case-item
+    width: 300px
+    height: 300px
+
+  .for-whom
+    margin: 0 0 50px
+    .box-text
+      font-size: 16px
+      font-weight: 500
+
+  .decor-program-img1
+    max-width: 50px
+
+  .program h2, .registration h2
+    font-size: 40px
+
+  .program h3
+    font-size: 26px
+
+  .program h4
+    font-size: 18px
+
+  .box-text
+    font-size: 16px
+
+  .author-photo
+    width: 140px
+    height: 140px
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px)
-	/**/
+@media only screen and (max-width : 440px)
+  .btn
+    padding: 0
+    font-size: 12px
 
+  .decor-main-img2
+    max-width: 80px
+
+  .case-item
+    width: 220px
+    height: 220px
+
+  .decor-program-img2
+    max-width: 100px
+
+  .program h2, .registration h2
+    font-size: 30px
+
+  .author-photo
+    width: 100px
+    height: 100px
 
 /*==========  Mobile First  ==========*/
 
