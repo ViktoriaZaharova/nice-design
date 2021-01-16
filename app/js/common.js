@@ -3,5 +3,7 @@ $('.case-slider').slick({
     variableWidth: true,
     arrows: false,
     centerMode: true,
-    autoplay: true
+    autoplay: true,
 });
+
+$('[name="phone"]').mask('+7(999) 999-99-99');
