@@ -611,6 +611,40 @@ footer
   width: 100%
   padding: 30px
   display: none
+  background: #0A152A
+  height: 100%
+  overflow-y: auto
+  .logo
+    margin: 0 auto 30px
+    display: flex
+    align-items: center
+    justify-content: center
+  .menu
+    flex-direction: column
+    align-items: center
+    li
+      margin: 0 0 20px
+    a
+      text-align: center
+      font-size: 16px
+
+.btn-close
+  width: 20px
+  height: 20px
+  margin: 0 0 20px auto
+  position: relative
+  &:before, &:after
+    content: ''
+    position: absolute
+    width: 1px
+    height: 100%
+    top: 0
+    left: 10px
+    background: $pink
+  &:before
+    transform: rotate(45deg)
+  &:after
+    transform: rotate(135deg)
 
 @import "media"
 // Всегда в конце

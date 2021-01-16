@@ -675,7 +675,54 @@ footer {
   max-width: 300px;
   width: 100%;
   padding: 30px;
-  display: none; }
+  display: none;
+  background: #0A152A;
+  height: 100%;
+  overflow-y: auto; }
+  .mobile-menu .logo {
+    margin: 0 auto 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .mobile-menu .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .mobile-menu .menu li {
+      margin: 0 0 20px; }
+    .mobile-menu .menu a {
+      text-align: center;
+      font-size: 16px; }
+
+.btn-close {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 20px auto;
+  position: relative; }
+  .btn-close:before, .btn-close:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 10px;
+    background: #FF65FF; }
+  .btn-close:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  .btn-close:after {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg); }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
