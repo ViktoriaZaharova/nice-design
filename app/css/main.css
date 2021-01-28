@@ -313,7 +313,7 @@ main {
   outline: none; }
 
 .case {
-  margin: -120px 0 0;
+  margin: -120px 0 60px;
   z-index: 1;
   position: relative; }
 
@@ -322,6 +322,40 @@ main {
   .case-slider .slide {
     padding: 0 10px 98px;
     position: relative; }
+
+.case-slider-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: -50px auto 0;
+  position: relative; }
+
+.slick-arrow {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  -webkit-transform: none;
+          transform: none;
+  outline: none;
+  opacity: 1;
+  z-index: 1;
+  width: 40px;
+  height: 40px; }
+  .slick-arrow:before {
+    display: none; }
+  .slick-arrow svg {
+    fill: #00F0FF; }
+
+.slick-next {
+  margin: 0 0 0 20px; }
 
 .img-blue {
   position: absolute;
@@ -543,6 +577,7 @@ main {
     margin: 0 0 -5px; }
 
 .date-item {
+  margin: 53px 0 29px;
   position: relative;
   font-size: 160px;
   font-weight: 900;
@@ -583,7 +618,7 @@ main {
   font-family: "ferry", sans-serif; }
 
 .author {
-  padding: 104px 0 50px; }
+  padding: 104px 0 23px; }
 
 .author-text {
   line-height: 157.4%;
@@ -614,20 +649,48 @@ main {
   z-index: 1; }
   .registration h2 {
     text-align: center;
-    margin: 0 auto 65px;
+    margin: 0 auto 36px;
     line-height: 115px;
     font-size: 96px; }
 
-.registration-box h3 {
-  text-align: center;
-  margin: 0 auto 30px;
-  font-size: 24px;
-  line-height: 112.5%; }
+.registration-box {
+  max-width: 364px;
+  width: 100%;
+  margin: 0 auto 28px;
+  border: 1px solid #FFFFFF;
+  padding: 25px 55px 29px; }
+  .registration-box h3 {
+    text-align: center;
+    margin: 0 auto 30px;
+    font-size: 24px;
+    line-height: 112.5%; }
+  .registration-box .btn {
+    max-width: 170px;
+    width: 100%;
+    margin: 0 auto;
+    height: 34px; }
+
+.registration-box-icon {
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto 24px;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 240, 255, 0.2);
+          box-shadow: 0px 4px 20px rgba(0, 240, 255, 0.2);
+  border-radius: 50%; }
 
 .form {
-  border: 1px solid #FFFFFF;
-  padding: 34px 76px 29px; }
-  .form button {
+  max-width: 211px;
+  width: 100%;
+  margin: 0 auto; }
+  .form button.btn {
     margin: 23px auto 0;
     max-width: 171px;
     width: 100%;
@@ -646,7 +709,7 @@ main {
             box-shadow: 0 4px 20px rgba(0, 240, 255, 0.5); }
 
 footer {
-  padding: 80px 0 90px;
+  padding: 40px 0;
   position: relative; }
   footer:before {
     content: '';
@@ -769,7 +832,7 @@ footer {
   .decor-main-img2 {
     max-width: 200px; }
   .case {
-    margin: 20px 0 0; }
+    margin: 20px 0 50px; }
   .for-whom {
     margin: 0 0 80px; }
   .program h2 {
@@ -864,14 +927,12 @@ footer {
       display: none; }
   .box-text {
     font-size: 20px; }
-  footer {
-    padding: 70px 0; }
   .form {
     padding: 20px;
     max-width: 300px;
     margin: 0 auto; }
   .registration-box {
-    margin: 0 0 30px; }
+    padding: 25px 25px 29px; }
     .registration-box h3 {
       margin: 0 auto 20px; }
   .registration h2 {
@@ -903,8 +964,6 @@ footer {
   .box-text {
     font-size: 18px;
     font-weight: 500; }
-  footer {
-    padding: 40px 0; }
   .author-photo {
     width: 150px;
     height: 150px; }
@@ -959,7 +1018,10 @@ footer {
     font-size: 16px; }
   .author-photo {
     width: 140px;
-    height: 140px; } }
+    height: 140px; }
+  .slick-arrow {
+    width: 20px;
+    height: 20px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 440px) {
